@@ -2,8 +2,6 @@
 
 A simple, isolated cybersecurity practice environment using **Kali Linux** in **Oracle VirtualBox**. This repository records the initial lab setup and provides a starting point for security learning, defensive testing, and controlled experiments.
 
-![Kali Linux running in VirtualBox](20261109_192730.jpg)
-
 ## Overview
 
 The lab is designed to provide a safe environment for learning and practicing:
@@ -57,10 +55,9 @@ ip addr
 
 You should see Kali Linux system information, a kernel version, and the VM's network interfaces.
 
-## Suggested next steps
+## Suggested steps
 
 - Take a clean snapshot before installing additional tools.
-- Build a separate target VM or use legal training platforms such as [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) and [Metasploitable](https://docs.rapid7.com/metasploit/metasploitable-2/).
 - Keep notes about commands, findings, and remediation steps.
 - Reset or revert targets after each exercise.
 - Keep Kali and VirtualBox up to date.
@@ -69,13 +66,4 @@ You should see Kali Linux system information, a kernel version, and the VM's net
 
 This lab is for authorized testing and education. Never scan, exploit, or access systems without permission. Keep vulnerable machines isolated, avoid using real credentials or sensitive data, and follow the laws and policies that apply to you.
 
-## Repository contents
 
-| File | Description |
-| --- | --- |
-| `README.md` | Lab overview and setup guidance |
-| `20261109_192730.jpg` | Screenshot of Kali Linux running in VirtualBox |
-
-## License
-
-No license has been specified for this repository. Add a license before redistributing the content or using it as a shared project.
